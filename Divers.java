@@ -79,7 +79,6 @@ public class Divers{
             }
         }
         printResults(divers);
-        
     }
 
 
@@ -88,8 +87,8 @@ public class Divers{
         HashMap<String, Double> threeMeter = new HashMap<>();
         //list of dd
 
-		oneMeter.put("103c", 1.6);
-		oneMeter.put("103b",1.7);
+	oneMeter.put("103c", 1.6);
+	oneMeter.put("103b",1.7);
         oneMeter.put("104c",2.2);
         oneMeter.put("104b",2.3);
         oneMeter.put("105c",2.4);
@@ -160,58 +159,8 @@ public class Divers{
         threeMeter.put("5233d", 2.4);
         threeMeter.put("5331d", 2.1);
         threeMeter.put("5333d", 2.5);
-		// double _201c_3m = 1.7;
-		// double _201b_3m = 1.8;
-		// double _203c_3m = 1.9;
-		// double _203b_3m = 2.2;
-		// double _205c_3m = 2.8;
-
-
-		// double _301c_1m = 1.6;
-		// double _301b_1m = 1.7;
-		// double _302c_1m = 1.6;
-		// double _302b_1m = 1.7;
-		// double _303c_1m = 2.1;
-		// double _303b_1m = 2.4;
-		// double _304c_1m = 2.3;
-		// double _305c_1m = 3.0;
-
-		// double _301a_3m = 2.0;
-		// double _301c_3m = 1.8;
-		// double _301b_3m = 1.9;
-		// double _303c_3m = 2.0;
-		// double _303b_3m = 2.3;
-		// double _305c_3m = 2.8;
-
-		// double _401c_1m = 1.4;
-		// double _401b_1m = 1.5;
-		// double _403c_1m = 2.2;
-		// double _403b_1m = 2.4;
-		// double _404c_1m = 2.8;
-		// double _405c_1m = 3.1;
-
-		// double _401c_3m = 1.3;
-		// double _401b_3m = 1.4;
-		// double _403c_3m = 1.9;
-		// double _403b_3m = 2.1;
-		// double _404c_3m = 2.4;
-		// double _405c_3m = 2.7;
-
-		// double _5132d_1m = 2.2;
-		// double _5134d_1m = 2.6;
-		// double _5221d_1m = 1.7;
-		// double _5231d_1m = 2.1;
-		// double _5233d_1m = 2.5;
-		// double _5331d_1m = 2.2;
-		// double _5333d_1m = 2.5;
-
-		// double _5132d_3m = 2.1;
-		// double _5134d_3m = 2.5;
-		// double _5152b_3m = 3.0;
-		// double _5231d_3m = 2.0;
-		// double _5233d_3m = 2.4;
-		// double _5331d_3m = 2.1;
-		// double _5333d_3m = 2.5;
+	
+	
         if(boardHeight == 1)
             return oneMeter.get(dive);
         else if(boardHeight == 3)
